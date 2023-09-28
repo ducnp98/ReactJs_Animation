@@ -11,8 +11,11 @@ const Page = () => {
   return (
     <div className="container">
       <div className="wrap_container">
-        <div className="button" onClick={() => navigation('BasicAnimation')}>
+        <div className="button pink_300" onClick={() => navigation('BasicAnimation')}>
           Basic Animation
+        </div>
+        <div className="button pink_400" onClick={() => navigation('InputAnimation')}>
+          Input Animation
         </div>
       </div>
     </div>
