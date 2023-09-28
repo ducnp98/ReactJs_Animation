@@ -1,0 +1,17 @@
+.basic_container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic_button {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.basic_button:hover {
+  transform: translateY(-10px);
+}

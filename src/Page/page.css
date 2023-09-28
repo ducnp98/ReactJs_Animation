@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.wrap_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 5rem;
+  gap: 1rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  background-color: rgb(255, 169, 212);
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
