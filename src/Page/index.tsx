@@ -17,6 +17,9 @@ const Page = () => {
         <div className="button pink_400" onClick={() => navigation('InputAnimation')}>
           Input Animation
         </div>
+        <div className="button pink_500" onClick={() => navigation('ButtonRippleAnimation')}>
+          Button Ripple Animation
+        </div>
       </div>
     </div>
   )

@@ -9,7 +9,7 @@
   gap: 1rem;
 }
 
-.button {
+.wrap_container .button {
   padding: 1rem 2rem;
   border-radius: 1rem;
   color: white;
@@ -23,6 +23,10 @@
 
 .button.pink_400 {
   background-color: rgb(255, 169, 212);
+}
+
+.button.pink_500 {
+  background-color: rgb(255, 133, 194);
 }
 
 .button:hover {

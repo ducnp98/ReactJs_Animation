@@ -1,0 +1,39 @@
+.button_ripple_container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_ripple_container .button {
+  padding: 1rem 3rem;
+  background: linear-gradient(90deg, pink, rgb(255, 115, 138));
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#button_ripple span {
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.7;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
