@@ -26,6 +26,9 @@ const Page = () => {
         <div className="button pink_700" onClick={() => navigation('ToggleButtonAnimation')}>
           Toggle Button Animation
         </div>
+        <div className="button pink_800" onClick={() => navigation('Ribbon')}>
+          Ribbon
+        </div>
       </div>
     </div>
   )
