@@ -29,6 +29,9 @@ const Page = () => {
         <div className="button pink_800" onClick={() => navigation('Ribbon')}>
           Ribbon
         </div>
+        <div className="button pink_900" onClick={() => navigation('ListAnimation')}>
+          List Animation
+        </div>
       </div>
     </div>
   )

@@ -1,0 +1,69 @@
+.list-item-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item-box {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  box-shadow:
+    0 14px 28px gray,
+    0 10px 10px gray;
+}
+
+.list-item-box .box-header {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(255, 0, 136);
+  color: white;
+  font-weight: bold;
+}
+
+.list-item-box .list {
+  position: relative;
+  padding: unset;
+  margin: 0;
+  width: 100%;
+}
+
+.list-item-box .item {
+  list-style: none;
+  padding: 15px 40px;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+
+.list-item-box .item:hover {
+  background-color: rgb(255, 162, 213);
+  color: white;
+  transform: scale(1.2);
+  z-index: 100;
+}
+
+.list-item-box .item #delete-icon {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.list-item-box .item #select-icon {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+}

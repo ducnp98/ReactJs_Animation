@@ -41,6 +41,10 @@
   background-color: rgb(255, 27, 141);
 }
 
+.button.pink_900 {
+  background-color: rgb(255, 0, 128);
+}
+
 .button:hover {
   opacity: 0.7;
 }
