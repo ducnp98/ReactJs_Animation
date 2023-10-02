@@ -1,0 +1,42 @@
+.toggle-button-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 176, 218);
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-btn {
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 209, 234);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-indicator {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background-color: rgb(255, 111, 135);
+  border-radius: 30px;
+  transition: 0.5s;
+}

@@ -33,6 +33,10 @@
   background-color: rgb(255, 95, 175);
 }
 
+.button.pink_700 {
+  background-color: rgb(255, 65, 160);
+}
+
 .button:hover {
   opacity: 0.7;
 }
